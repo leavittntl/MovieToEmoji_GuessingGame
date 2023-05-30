@@ -51,9 +51,9 @@ if 'attempts' not in st.session_state:
 total_movies = len(flatten_data(MOVIE_EMOJI_DATA))
 remaining_attempts = 3 - st.session_state.attempts
 
-st.write(f"Score: {st.session_state.score}")
-st.write(f"Movies left: {len(st.session_state.remaining_movies)}")
-st.write(f"Remaining attempts for this title: {remaining_attempts}")
+#st.write(f"Score: {st.session_state.score}")
+#st.write(f"Movies left: {len(st.session_state.remaining_movies)}")
+#st.write(f"Remaining attempts for this title: {remaining_attempts}")
 st.write(f"Guess {st.session_state.movie[0]}'s favorite movie based on the emojis: {st.session_state.movie[1][1]}")
 guess = st.text_input("Guess the Movie:")
 
