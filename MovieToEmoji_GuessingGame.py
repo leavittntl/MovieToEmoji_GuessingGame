@@ -5,16 +5,36 @@ import time
 
 # Sample Movie to Emoji dictionary
 MOVIE_EMOJI_DATA = {
-    "Alice": [("The Shawshank Redemption", "🔒🏃‍♂️💼"),
-              ("Inception", "👨‍🎓🌃🧩"),
-              ("The Dark Knight", "🦇🃏🌆")],
-    "Bob": [("The Godfather", "🤵🍊👑"),
-            ("Pulp Fiction", "💉💼🍔"),
-            ("Goodfellas", "🔫🍝💰")],
-    "Charlie": [("Fight Club", "👨🥊🤖"),
-                ("The Matrix", "🕶️👾💊"),
-                ("Blade Runner", "🤖🏃‍♂️🌆")],
-    # Add more individuals, movies, and emojis
+    "Michael": [("Bourne Identity", "🧔🔎"),
+                ("Elf", "🧝"),
+                ("Big", "🤴📏")],
+    "Ken": [("After the Sunset", "🌅🌅🌆"),
+            ("Italian Job", "🇮🇹🚗💰"),
+            ("Shooter", "🔫")],
+    "Margaret": [("Bridges of Madison County", "🌉🚙💔"),
+                 ("The Big Lebowski", "🤵🎳"),
+                 ("Pretty Woman", "💃👰")],
+    "Nate": [("Fight Club", "🤜🤛🔥"),
+             ("The Illusionist", "🎩🤹"),
+             ("The French Dispatch", "🇫🇷 📰")],
+    "Kris": [("Top Gun (Maverick)", "🚁🔫🤠"),
+             ("Crazy Rich Asians", "🤑🤩🌏"),
+             ("After the Sunset", "🌅🌅🌆")],
+    "Susannah": [("Top Gun (Maverick)", "🚁🔫🤠"),
+                 ("Bohemian Rhapsody", "🎸🎤🎶"),
+                 ("I’m Thinking of Ending Things", "🤔🚫🤝")],
+    "Joe": [("The Wolf of Wall Street", "🐺🏦"),
+            ("The Dark Knight", "🌑🤵🦇"),
+            ("Forrest Gump", "🧒🏃‍♂️🌲")],
+    "Elizabeth": [("Lord of the Rings", "💍🗡️🐉"),
+                  ("Bridesmaids", "👰👩👭💐"),
+                  ("A Beautiful Mind", "🤓💡💭")],
+    "Rachel": [("Parasite", "🐜🐛"),
+               ("27 Dresses", "🤵👰🎀👗"),
+               ("Miracle", "🙏🌟")],
+    "Carrie": [("Harold & Maude", "👴👵"),
+               ("Cinema Paradiso", "🎬🌅"),
+               ("Amadeus", "🎼🎭")]
 }
 
 def flatten_data(data):
